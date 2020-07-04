@@ -1,0 +1,33 @@
+{
+  "name": "up",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "c": "rollup -c",
+    "w": "rollup -c -w",
+    "migrate": "truffle migrate && node after-migrate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VandeurenGlenn/up.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VandeurenGlenn/up/issues"
+  },
+  "homepage": "https://github.com/VandeurenGlenn/up#readme",
+  "dependencies": {
+    "web3": "^1.2.9"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "rollup": "^2.18.2"
+  }
+}
